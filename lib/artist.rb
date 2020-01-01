@@ -5,6 +5,9 @@ class Artist
     @name = name 
   end
   
+  def songs 
+    @songs
+  end
   # def songs
   #   Song.all select do |song|
   #     song.artist == self
