@@ -5,6 +5,6 @@ class Artist
     @name = name 
   end
   def songs(song)
-    song.artist = self
+    song = song.new
   end
 end
