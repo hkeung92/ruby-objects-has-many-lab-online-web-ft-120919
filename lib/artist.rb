@@ -5,7 +5,7 @@ class Artist
     @name = name 
     @songs = []
   end
-  def songs
+  def songs(song)
     @songs
   end
   
